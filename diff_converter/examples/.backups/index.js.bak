@@ -1,0 +1,6 @@
+let lang = 'en'
+function init()
+{
+    let container = document.getElementById('main-text')
+    // Rest of the init function
+}

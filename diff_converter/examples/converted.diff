@@ -1,0 +1,22 @@
+commit 742b63e7ec2eafcfd746938c9c017827ae819084
+Author: Script <script@example.com>
+Date:   2024-11-07 11:05:31 +0100
+
+    Generated diff from simple format
+
+diff --git a/index.html b/index.html
+index f1e0b4d..803f85f 100644
+--- a/index.html
++++ b/index.html
+@@ -1,1 +1,1 @@
++ <div id="header">New Header</div>
+- <div id="old-header">Old Header</div>
+
+diff --git a/styles.css b/styles.css
+index ef52ac2..9754ea8 100644
+--- a/styles.css
++++ b/styles.css
+@@ -1,1 +1,1 @@
++ .header { color: blue; }
+- .old-header { color: red; }
+

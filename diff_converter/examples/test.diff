@@ -1,0 +1,16 @@
+FILE: ../../website/index.js
++ document.getElementById('header-container').outerHTML = `<table cellspacing=0 cellpadding=0 class=header-holder>
++     <tr>
++         <td id=logo-cell-back>
++             <div id=logo-cell></div>
++         </td>
++         <td class=header-text-holder>
++             <div class=subh-text id=htext>Tatjana Kiriënko, Textile Artist</div>
++             <div id=htextsub class="subh subh-text">
++                 <div class=en>Threads of beauty and resilience</div>
++                 <div class=nl>Threads of beauty and resilience</div>
++                 <div class=ua>Нитки краси та стійкості</div>
++             </div>
++         </td>
++     </tr>
++ </table>`

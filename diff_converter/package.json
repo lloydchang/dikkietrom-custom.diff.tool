@@ -1,0 +1,16 @@
+{
+  "name": "diff-converter",
+  "version": "1.0.0",
+  "description": "Converts simple diff format to unified diff format and applies changes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/test_runner.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "simple-git": "^3.22.0",
+    "fs-extra": "^11.2.0"
+  }
+}
